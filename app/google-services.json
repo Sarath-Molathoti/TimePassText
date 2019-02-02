@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "668011096506",
+    "firebase_url": "https://timepasstext-5c0a9.firebaseio.com",
+    "project_id": "timepasstext-5c0a9",
+    "storage_bucket": "timepasstext-5c0a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668011096506:android:a9ff1a76dc793e79",
+        "android_client_info": {
+          "package_name": "ga.sarathmolathoti.timepasstexttpt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668011096506-e3skgcuo8n4h1k5rb6s0ri1egcmlm61c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ga.sarathmolathoti.timepasstexttpt",
+            "certificate_hash": "c70a154b213a81fc7939f58afd810ecabcb6fb2c"
+          }
+        },
+        {
+          "client_id": "668011096506-610bl874uunbqedcdsvi6m72u0ghqk42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIvO0285e2dDItOfs207RBtTdn5NXvt6M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668011096506-610bl874uunbqedcdsvi6m72u0ghqk42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
