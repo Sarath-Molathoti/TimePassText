@@ -5,31 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    tools:context=".LoginActivity">
 
-    <include layout="@layout/app_bar_layout" android:id="@+id/register_toolbar" />
-
+     <include layout="@layout/app_bar_layout" android:id="@+id/login_toolbar" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="58dp"
         android:textSize="30dp"
         android:layout_marginLeft="10dp"
         android:textStyle="bold"
         android:textColor="#112"
-        android:text="Create A New Account" />
+        android:text="@string/login_to_your_account" />
 
     <EditText
-        android:id="@+id/reg_display_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name"
-        android:padding="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="30dp"/>
-    <EditText
-        android:id="@+id/reg_email"
+        android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
@@ -39,7 +29,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"/>
     <EditText
-        android:id="@+id/reg_password"
+        android:id="@+id/login_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -49,15 +39,15 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"/>
     <Button
-        android:id="@+id/reg_create_btn"
+        android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="220dp"
+        android:layout_marginLeft="250dp"
         android:textColor="#112"
         android:textStyle="bold"
         android:padding="10dp"
         android:background="#e2109c"
-        android:text="CREATE ACCOUNT"/>
+        android:text="@string/login"/>
 
 </LinearLayout>

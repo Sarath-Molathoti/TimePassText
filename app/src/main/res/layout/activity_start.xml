@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".StartActivity">
 
     <TextView
@@ -12,15 +13,30 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Welcome To TimePassText App"
-        tools:textSize="30sp" />
+        tools:textSize="22sp"
+        android:textColor="#112"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"/>
+
+    <Button
+        android:id="@+id/have_account"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#edff3a12"
+        android:textStyle="bold"
+        android:textColor="#dbdbef"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/already_have_account" />
 
     <Button
         android:id="@+id/start_reg_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="101dp"
-        android:layout_marginBottom="161dp"
-        android:text="need_a_new_account" />
-</RelativeLayout>
+        android:background="#e7e5cc"
+        android:textColor="#112"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/need_a_new_account" />
+</LinearLayout>

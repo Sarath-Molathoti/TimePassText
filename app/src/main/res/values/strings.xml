@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TimePassText(TPT)</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT?</string>
+    <string name="already_have_account">ALREADY HAVE ACCOUNT</string>
+    <string name="login">Login</string>
+    <string name="login_to_your_account">Login to your Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
