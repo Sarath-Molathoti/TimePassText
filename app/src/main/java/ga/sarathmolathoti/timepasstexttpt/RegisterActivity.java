@@ -83,11 +83,12 @@ public class RegisterActivity extends AppCompatActivity {
                     String uid = current_user.getUid();
 
                     mDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child(uid);
-                    HashMap<String, String> usermap = new HashMap<>();
-                    usermap.put("name", display_name);
-                    usermap.put("status", "Hi there!! I am using TPT");
-                    usermap.put("image", "default");
-                    usermap.put("thumb_image", "default");
+                    HashMap<String, String> userMap = new HashMap<>();
+                    userMap.put("name", display_name);
+                    userMap.put("status", "Hi there!! I am using TPT");
+                    userMap.put("image", "default_img.jpg");
+                    userMap.put("thumb_image", "default_img.jpg");
+                    mDatabase.setValue(userMap);
 
                     mRegProgress.dismiss();
                     Intent mainIntent = new Intent(RegisterActivity.this,MainActivity.class);
